@@ -166,6 +166,7 @@ footer {
   background-image: url(https://st2.depositphotos.com/3278219/7818/i/450/depositphotos_78182424-stock-photo-coffee-shop-blur-background.jpg);
   background-size: cover;
   text-shadow: #16065c;
+  border-radius: 12px;
   background-position: 30%;
 }
 .new img {
