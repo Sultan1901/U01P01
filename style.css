@@ -1,0 +1,237 @@
+body {
+  background-image: url(./248.jpg);
+
+  background-size: cover;
+  height: 100vh;
+  font-size: 50px;
+  color: rgb(243, 243, 233);
+
+  font-family: cursive;
+}
+li {
+  padding: 14px;
+  display: inline;
+  font-size: 1px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  margin-right: 30px;
+  display: flex;
+}
+li:hover {
+  background-color: rgba(255, 255, 255, 0.479);
+  color: black;
+}
+li:hover a {
+  color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a47551;
+  height: 20%;
+  align-items: center;
+  border-radius: 15px;
+}
+.logo {
+  height: 90px;
+  margin: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.welcome {
+  font-size: 3vw;
+}
+.input {
+  width: 300px;
+  background-color: rgb(223, 213, 203);
+  color: rgb(184, 134, 28);
+  height: 2rem;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid rgb(197, 197, 196);
+}
+.search button {
+  margin-top: 1px;
+  height: 35px;
+}
+.search {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  margin-top: 50px;
+  border: rgb(122, 118, 118);
+  color: rgb(163, 15, 15);
+}
+.photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.photo {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  margin: 80px auto;
+}
+.photo a:hover {
+  color: #a34e0d;
+}
+
+.vv img {
+  width: 200px;
+  height: 200px;
+}
+.vv {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  margin: 80px auto;
+  min-height: 60vh;
+  backdrop-filter: blur(4px) saturate(138%);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);}
+
+.image img:hover {
+  cursor: pointer;
+
+  transform: scale(1.1);
+  transition: transform 0.4s ease;
+}
+.image {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image p {
+  margin: 0 0 0 0;
+  cursor: pointer;
+}
+.image a {
+  color: white;
+}
+footer {
+  height: 3rem;
+  padding: 12px;
+  text-align: center;
+  background-color: hsl(0, 43%, 21%);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.aboutp {
+  color: #523a28;
+  font-size: 20px;
+}
+
+.abouth1 {
+  font-size: 40px;
+  color: #a47551;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.p2 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.425);
+}
+.p2 a {
+  color: #a45151;
+}
+.fav {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cc {
+  width: 80%;
+  margin: 25px auto;
+  padding: 10px;
+  text-align: center;
+  color: rgb(14, 15, 15);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://st2.depositphotos.com/3278219/7818/i/450/depositphotos_78182424-stock-photo-coffee-shop-blur-background.jpg);
+  background-size: cover;
+  text-shadow: #16065c;
+  background-position: 30%;
+}
+.new img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.new button {
+  width: 100px;
+  height: 30px;
+  border: none;
+
+  color: rgb(58, 58, 58);
+  background-color: rgb(248, 248, 248);
+
+  display: block;
+  margin: 20px auto;
+}
+.new button:hover {
+  background-color: rgb(245, 200, 52);
+  color: aliceblue;
+}
+
+.page2 {
+  min-height: 60vh;
+}
+.page2 img {
+  border-radius: 20px;
+}
+#BBT1:hover {
+  background-color: rgb(179, 12, 12);
+  color: aliceblue;
+}
+footer p {
+  margin-top: auto;
+}
+.fav button {
+  color: #0d99a3;
+}
+#BBT1 {
+  margin-bottom: 70px;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+.favhead
+{
+  font-size: 7vh;
+}
+@media all and (max-width: 750px) {
+  ul {
+    font-size: 12px;
+    padding: auto;
+    flex-direction: column;
+  }
+  .header {
+    flex-direction: column;
+    height: auto;
+
+    text-align: center;
+  }
+}
+.noitem {
+  color: rgb(0, 0, 0);
+}
+.abouthead
+{
+  font-size: 7vh;
+}
